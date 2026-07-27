@@ -64,6 +64,8 @@ save ~/.config/hypr/hyprland.lua
 save ~/.nanorc
 save ~/.config/micro/settings.json
 save ~/.config/starship.toml
+save /usr/share/cachyos-fish-config/cachyos-config.fish
+save ~/.config/fastfetch/config.jsonc
 
 # load ~/.gitconfig
 # loadAll
