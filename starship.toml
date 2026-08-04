@@ -1,9 +1,16 @@
 # Inserts a blank line between shell prompts
 add_newline = true
 
+
+#[directory]
+#style = "fg:#f0d7f7 bg:#b95dd3"
+#format = "[ $path ]($style) "
+#truncation_length = 3
+#truncation_symbol = "…/"
+
 # Replace the '❯' symbol in the prompt with '➜'
 [character] # The name of the module we are configuring is 'character'
-success_symbol = '[8==D ](green)' # The 'success_symbol' segment is being set to '➜' with the color 'bold green'
+success_symbol = '[❯](purple)' # The 'success_symbol' segment is being set to '➜' with the color 'bold green'
 
 # Disable the package module, hiding it from the prompt completely
 [package]

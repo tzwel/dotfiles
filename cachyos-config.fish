@@ -76,7 +76,7 @@ end
 
 ## Useful aliases
 # Replace ls with eza
-alias ls='eza -al --color=always --no-permissions --no-user --no-time  --hyperlink=auto  --group-directories-first --icons=always' # preferred listing
+alias ls='eza -al --sort=modified  --no-filesize  --color=always --no-permissions --no-user --no-time  --hyperlink=auto  --group-directories-first --icons=always' # preferred listing
 alias la='eza -a --color=always --group-directories-first --icons=always'  # all files and dirs
 alias ll='eza -l --color=always --group-directories-first --icons=always'  # long format
 alias lt='eza -aT --color=always --group-directories-first --icons=always' # tree listing

@@ -66,6 +66,7 @@ save ~/.config/micro/settings.json
 save ~/.config/starship.toml
 save /usr/share/cachyos-fish-config/cachyos-config.fish
 save ~/.config/fastfetch/config.jsonc
+save ~/.config/fish/config.fish
 
 # load ~/.gitconfig
 # loadAll
