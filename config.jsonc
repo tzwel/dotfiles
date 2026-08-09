@@ -1,8 +1,8 @@
 {
   "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/master/doc/json_schema.json",
   "logo": {
+  	"source": "/home/user/Documents/ff.txt",
     "type": "auto",
-    "source": "",
     "color": {
       "1": "",
       "2": "",
@@ -145,33 +145,33 @@
     //   "type": "host",
     //   "keyIcon": "󰌢"
     // },
-    {
-      "type": "kernel",
-      "keyIcon": ""
-    },
+    // {
+    //   "type": "kernel",
+    //   "keyIcon": ""
+    // },
     {
       "type": "uptime",
       "keyIcon": ""
     },
-    {
-      "type": "packages",
-      "keyIcon": "󰏖",
-      "disabled": [
-        "apk"
-      ],
-      "combined": false
-    },
-    {
-      "type": "shell",
-      "keyIcon": ""
-    },
-    {
-      "type": "display",
-      "keyIcon": "󰍹",
-      "compactType": "none",
-      "preciseRefreshRate": false,
-      "order": null
-    },
+    // {
+    //   "type": "packages",
+    //   "keyIcon": "󰏖",
+    //   "disabled": [
+    //     "apk"
+    //   ],
+    //   "combined": false
+    // },
+    // {
+    //   "type": "shell",
+    //   "keyIcon": ""
+    // },
+    // {
+    //   "type": "display",
+    //   "keyIcon": "󰍹",
+    //   "compactType": "none",
+    //   "preciseRefreshRate": false,
+    //   "order": null
+    // },
     {
       "type": "de",
       "keyIcon": ""
@@ -216,19 +216,19 @@
     //   "showPeCoreCount": false,
     //   "tempSensor": ""
     // },
-    {
-      "type": "gpu",
-      "keyIcon": "󰾲",
-      "driverSpecific": false,
-      "detectionMethod": "pci",
-      "temp": false,
-      "hideType": "none",
-      "percent": {
-        "green": 50,
-        "yellow": 80,
-        "type": 0
-      }
-    },
+    // {
+    //   "type": "gpu",
+    //   "keyIcon": "󰾲",
+    //   "driverSpecific": false,
+    //   "detectionMethod": "pci",
+    //   "temp": false,
+    //   "hideType": "none",
+    //   "percent": {
+    //     "green": 50,
+    //     "yellow": 80,
+    //     "type": 0
+    //   }
+    // },
     {
       "type": "memory",
       "keyIcon": "",

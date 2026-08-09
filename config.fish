@@ -10,6 +10,8 @@ alias pacman='sudo pacman'
 alias mi='micro'
 alias amogus='echo ඞ'
 alias exe='chmod a+x'
+alias pc='btop'
+alias ff='fastfetch'
 
 function run
     command $argv &
@@ -28,3 +30,5 @@ end
 fnm env --use-on-cd | source
 
 starship init fish | source
+# oh-my-posh init fish | source
+

@@ -15,3 +15,12 @@ success_symbol = '[❯](purple)' # The 'success_symbol' segment is being set to 
 # Disable the package module, hiding it from the prompt completely
 [package]
 disabled = false
+
+[directory]
+home_symbol = "home"
+
+substitutions = [
+  { from = "/", to = " ❯ " },
+]
+
+# style = "red"
